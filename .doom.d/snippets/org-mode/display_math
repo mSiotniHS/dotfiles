@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: display math
+# contributor: mSiotniHS <artemabramyan7@icloud.com>
+# key: dm
+# --
+
+\[ $1 \]
+$0

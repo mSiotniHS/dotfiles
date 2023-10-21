@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: block begin/end
+# contributor: mSiotniHS <artemabramyan7@icloud.com>
+# key: beg
+# --
+
+#+BEGIN_$1 $2
+$0
+#+END_$1
