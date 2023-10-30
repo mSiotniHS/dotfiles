@@ -6,4 +6,4 @@ alias oldify='arch --x86_64'
 alias newify='arch --arm64'
 
 # dotfiles management
-alias msi.config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
+alias m.config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
