@@ -1,13 +1,17 @@
 return {
 	{
-		"nvim-telescope/telescope.nvim", tag = "0.1.4",
+		"nvim-telescope/telescope.nvim",
+		tag = "0.1.4",
 		dependencies = { "nvim-lua/plenary.nvim" }
 	},
 	{
-		"rose-pine/neovim", name = "rose-pine"
+		"catppuccin/nvim",
+		name = "catppuccin",
+		priority = 1000
 	},
 	{
-		"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"
+		"nvim-treesitter/nvim-treesitter",
+		build = ":TSUpdate"
 	},
 	{
 		"theprimeagen/harpoon",
@@ -44,5 +48,7 @@ return {
 				org_default_notes_file = "~/Documents/Хранилище/Inbox.org"
 			})
 		end,
-	}
+	},
+	-- So that vim navigation in Tmux works
+	{ "christoomey/vim-tmux-navigator" }
 }
