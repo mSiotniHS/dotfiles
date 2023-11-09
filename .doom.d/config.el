@@ -19,6 +19,8 @@
 (after! org
   (setq org-hide-emphasis-markers t)
   (setq org-pretty-entities t)
+  (setq org-todo-keywords
+        '((sequence "TODO" "PROC" "PENDING" "VERIFY" "|" "DONE" "CANCELED")))
   (setq org-html-mathjax-template "<script>
   window.MathJax = {
     tex: {
