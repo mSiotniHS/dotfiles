@@ -1,3 +1,3 @@
-for file in ~/.config/zsh/msiotnihs/**/*.zsh; do
-	source "${file}"
-done;
+MS_CONFIG_PATH=~/.config/zsh/msiotnihs
+source $MS_CONFIG_PATH/msiotnihs.zsh
+
